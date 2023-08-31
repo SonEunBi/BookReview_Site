@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Info</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .info p{
+            display: flex;
+            width:1000px;
+            margin-left:auto;
+            margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+        }.info img{
+            display: flex;
+            width:1000px;
+            margin-left:auto;
+            margin-right: auto;
+    text-align: center;
+        }
+        @media(max-width: 768px){
+            .info p{
+            display: flex;
+            text-align:center;
+            min-width: 0px;
+            max-width: 600px;
+           
+        }.info img{
+            min-width: 0px;
+            max-width: 600px;
+            height: auto;
+}
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-title">
+            <div class="header-title-small">
+                <a class="mainHeader" href="main.html">BookList</a>
+                <button type="button" class="minHeader">
+                    <i class="fas fa-bar"></i>
+                    <span class="fa fa-bars" title="MENU"></span>
+                </button>
+            </div>
+            <nav class="sideHeader">
+                <ul>
+                    <ul>
+                        <li><a href="pinterest.html">Pinterest</a></li>
+                        <li><a href="comment.html">책공유</a></li>
+                        <li><a href="Info.html">북리뷰</a></li>
+                        <li><a href="requests.html">문의처</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article class ="info">
+        <div class="box">
+            <h1>BOOKREVIEW란?</h1><br>
+            <img src="img/bookshelf.jpg">
+            <P><br>책을 좋아하고, 공유하고자 하는 사람들을 위한 공간입니다. 올바른 지식을 가능한 한 많이 정확하게 습득하고, 그것을 바탕으로 올바르게 살아가는데 책을 읽는 것보다 나은 길은 없을 것입니다. 그래서 북리뷰에서는 각자의 생각들을 공유하며 한 권에 대한 여러 가지 생각들을 나눌 수 있도록 하며, 보다 풍부한 문화 생활을 즐길 수 있도록 합니다. </P>
+        </div>
+    </article>
+</body>
+<footer class="box">
+    <div class="main_footer">
+        <h2>BOOKREVIEW</h2>
+        <p>손은비(주)<br>
+                <a href="pinterest.html">http://bookreviewer.com</a>
+                <br>
+                    전화번호 : 2018-136-051
+                </p>
+            </div>
+            <div class="corp">
+                ⓒ BOOKREVIEW corp. All rights reserved.
+            </div>
+        </footer>
+</html>

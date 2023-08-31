@@ -1,0 +1,70 @@
+#sharing-form {
+    width: 100%;
+}
+input {
+    margin: 20px 20px;
+    width: 80%;
+    height: 3.3em;
+}
+button {
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: rgb(151, 194, 240);
+    width: 5.5em;
+    height: 3.3em;
+    font-size: 15px;
+}
+#comment {
+    margin: 10px 10px;
+}
+.eachComment {
+    width: 70%;
+    margin: 10px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #c1bcba;
+}
+.eachComment .name {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0.5px;
+}
+.eachComment .inputValue {
+    font-size: 16px;
+}
+.eachComment .time {
+    color: #c2bdbc;
+    margin-top: 0.5em;
+    font-size: 0.7em;
+    margin-bottom: 0.5em;
+}
+.eachComment .deleteComment {
+    background-color: rgb(103, 151, 173);
+    padding: 5px 5px;
+    color: aliceblue;
+
+}
+footer{
+    width:100%;
+    position:absolute;
+    bottom:0;
+    color: #fff;
+    background-color: #2b230e;
+  
+}
+footer .box {
+    padding: 30px 20px;
+}
+.sub_footer h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+.sub_footer a {
+    color: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <title>서평 사이트</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jquery.masonry.min.js"></script>
+    <scripts src="jquery-3.2.1.min.js"></scripts>
+ <script>
+     $(function(){
+         $(".minHeader").click(function(){
+             $(".sideHeader").slideToggle();
+         });
+     });
+ </script>
+ <style>
+ @media(max-width: 767px){
+     .article{
+        margin-left:auto;
+        margin-right:auto;
+        display:inline-block;
+        width:150px;
+        height: 150px;
+        border-radius: 100px;
+        text-align: center;
+    }
+    .art .inform{
+    display:inline-block;
+    width: 150px; height:150px;
+    border:solid 3px rgba(0, 0,0,0.9);
+    border-radius: 50%;
+    margin-left:40px;
+    margin: 20px;
+    padding: 20px;
+}
+
+}
+
+ }  </style>
+ </head> 
+<body>
+    <header>
+        <div class="header-title">
+            <div class="header-title-small">
+                <a class="mainHeader" href="main.html">BookList</a>
+                <button type="button" class="minHeader">
+                    <i class="fas fa-bar"></i>
+                    <span class="fa fa-bars" title="MENU"></span>
+                </button>
+            </div>
+            <nav class="sideHeader">
+                <ul>
+                    <ul>
+                        <li><a href="pinterest.html">Pinterest</a></li>
+                        <li><a href="comment.html">책공유</a></li>
+                        <li><a href="Info.html">북리뷰</a></li>
+                        <li><a href="requests.html">문의처</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<article class="art">
+    <p><b>고객센터 > 연락망</b></p>
+        <div class="inform"><br>
+    <h2><i class="fas fa-headset"></i> 전화번호</h2>
+        <a href="tel : 010-2018-1360">
+            010-2018-1360
+        </a></div>
+        <div class="inform"><br>
+            <h2><i class="fas fa-mail-bulk"></i> 이메일</h2>
+            <a href="email : SonEunbi@koreatech.ac.kr">
+                SonEunbi@kut.ac.kr
+            </a></div>
+ 
+</article>
+<aside class="location">
+    <p>고객센터 > 오시는 길</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12785.013279775716!2d127.27380152699963!3d36.76448996917072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b2ac6c614c717%3A0x820bda83618bd53b!2z7ZWc6rWt6riw7Iig6rWQ7Jyh64yA7ZWZ6rWQIOygnDHsuqDtjbzsiqQ!5e0!3m2!1sko!2skr!4v1607277622651!5m2!1sko!2skr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</aside>
+<footer>
+    <div class="box">
+    <div class="main_footer">
+        <h2>BOOKREVIEW</h2>
+        <p>손은비(주)<br>
+        <a href="pinterest.html">http://bookreviewer.com</a><br>
+        전화번호 : 2018-136-051    
+    </p>
+    </div>
+    <div class="corp">
+        ⓒ BOOKREVIEW corp. All rights reserved.
+    </div>
+</div>
+</footer>
+</body>
+</html> 
